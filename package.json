@@ -1,12 +1,10 @@
 {
   "name": "demo5postgres",
   "version": "1.0.0",
-  "main": "app.js",
-
-  "engines":{
+  "main": "index.js",
+  "engines": {
     "node": "8.11.3"
   },
-
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
@@ -17,22 +15,22 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/cccastro09/dbnodec4"
+    "url": "git+https://github.com/cccastro09/dbnodec4.git"
   },
-
   "scripts": {
-    "start":"node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-
   "keywords": [
     "node",
     "heroku",
     "express"
-  ]
-
-
+  ],
+  "bugs": {
+    "url": "https://github.com/cccastro09/dbnodec4/issues"
+  },
+  "homepage": "https://github.com/cccastro09/dbnodec4#readme"
 }

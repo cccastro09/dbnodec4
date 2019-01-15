@@ -3,7 +3,7 @@ module.exports = {
   development: {
     client: 'postgresql',
     //connection: 'postgress://postgres:postgres@localhost:5432/clase'
-connection:'postgres://vjwvyqsyeflhjy:484461a3b5ab809eabb25673b738ca97c2102c0c26f16175b981b43e64d21066@ec2-23-21-171-25.compute-1.amazonaws.com:5432/dautgr4sagnboo'
+connection:'postgres://mtcnjtrrnvapeh:49ca14de08b3d0fd861c8d49621af6537e5111611eb1eaea75fe7d7703b09e6d@ec2-107-22-252-66.compute-1.amazonaws.com:5432/d290luh3kfq5lm'
 
 },
     production: {

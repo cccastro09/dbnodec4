@@ -30,7 +30,7 @@ res.render('about');
 app.get('/user',function(req, res){
 //  res.type('text/plain');
 //  res.send('acerca de mi pagina');
-knex('usuario')
+knex('usuarios')
   .select()
   .then( usuarios => {
   res.render('usuarios',{ objusers: usuarios});
